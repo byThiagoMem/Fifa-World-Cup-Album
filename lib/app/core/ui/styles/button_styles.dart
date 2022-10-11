@@ -13,7 +13,7 @@ class ButtonStyles {
   }
 
   ButtonStyle get yellowButton => ElevatedButton.styleFrom(
-        primary: ColorsApp.i.yellow,
+        backgroundColor: ColorsApp.i.yellow,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(15),
         ),
@@ -33,7 +33,7 @@ class ButtonStyles {
       );
 
   ButtonStyle get primatyButton => ElevatedButton.styleFrom(
-        primary: ColorsApp.i.primary,
+        backgroundColor: ColorsApp.i.primary,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(15),
         ),
