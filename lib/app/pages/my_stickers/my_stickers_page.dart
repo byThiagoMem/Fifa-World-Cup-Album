@@ -1,15 +1,51 @@
 import 'package:flutter/material.dart';
+import 'package:fwc_album/app/pages/my_stickers/presenter/my_stickers_presenter.dart';
+import 'package:fwc_album/app/pages/my_stickers/view/my_stickers_view_impl.dart';
 
-class MyStickersPage extends StatelessWidget {
-  const MyStickersPage({super.key});
+import 'widgets/sticker_group.dart';
+import 'widgets/sticker_group_filter.dart';
+import 'widgets/sticker_status_filter.dart';
 
+class MyStickersPage extends StatefulWidget {
+  const MyStickersPage({super.key, required this.presenter});
+
+  final MyStickersPresenter presenter;
+
+  @override
+  State<MyStickersPage> createState() => _MyStickersPageState();
+}
+
+class _MyStickersPageState extends MyStickersViewImpl {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Minhas figurinhas'),
       ),
-      body: Container(),
+      body: CustomScrollView(
+        slivers: [
+          SliverToBoxAdapter(
+            child: Column(
+              children: [
+                StickerStatusFilter(filterSelected: statusFilter),
+                StickerGroupFilter(countries: countries),
+              ],
+            ),
+          ),
+          SliverList(
+            delegate: SliverChildBuilderDelegate(
+              childCount: album.length,
+              (context, index) {
+                final group = album[index];
+                return StickerGroup(
+                  group: group,
+                  statusFilter: statusFilter,
+                );
+              },
+            ),
+          )
+        ],
+      ),
     );
   }
 }
