@@ -5,23 +5,20 @@
 <h2 align="center">Sobre 📖</h2>
 
 <p align="center">
-   Projeto foi desenvolvido na 7º edição do Dart Week, uma semana intensa de estudos, networking, amizade, trabalho em grupo, acompanhado de um projeto sensacional desenvolvido pela Academia do Flutter de 10 a 14 de outubro de 2022.<br>
+   Project developed in the 7th edition of Dart Week, an intense week of studies, networking, friendship, group work, accompanied by a sensational project developed by the Flutter Academy from October 10 to 14, 2022.<br>
 </p>
 
 ---
-
 <h2 align="center">Layout 🎨</h2>
-
-   <p align="center">
-      <img alt="PayFlow" title="PayFlow" src="https://user-images.githubusercontent.com/59374587/122856653-86779c80-d2ed-11eb-8927-8c5433dc37d3.png" />
-   </p>
-
-   <p align="center">
-      The Layout was developed by <a href="https://instagram.com/tiagoluchtenberg">Tiago Luchtenberg</a>, and you can access it on Figma:
    
-   - <a href="https://www.figma.com/file/kLK7FYnWKMoN68sQXcSniu/PayFlow">Mobile</a> 📱
-   </p>
-
+  <div style="display: inline_block"><br>
+      <img align="center" alt="FWC" height="480" width="240" src="https://github.com/byThiagoMem/Fifa-World-Cup-Album/blob/master/assets/screenshots/Initial.png?raw=true">
+      <img align="center" alt="FWC" height="480" width="240" src="https://github.com/byThiagoMem/Fifa-World-Cup-Album/blob/master/assets/screenshots/Login.png?raw=true">
+      <img align="center" alt="FWC" height="480" width="240" src="https://github.com/byThiagoMem/Fifa-World-Cup-Album/blob/master/assets/screenshots/Home.png?raw=true">
+      <img align="center" alt="FWC" height="480" width="240" src="https://github.com/byThiagoMem/Fifa-World-Cup-Album/blob/master/assets/screenshots/Add_Sticker.png?raw=true">
+      
+   </div>
+   
    ---
 
    >This project was developed with by **[@Thiago Mem](https://www.linkedin.com/in/thiago-a-mem-311720130/)**, with the instructor **[@GabulDev](https://www.linkedin.com/in/gabuldev/)**, in #NextLevelWeek from **[Rocketseat](https://rocketseat.com.br/)**.<br>
