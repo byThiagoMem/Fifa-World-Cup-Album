@@ -16,11 +16,15 @@
       <img align="center" alt="FWC" height="480" width="240" src="https://github.com/byThiagoMem/Fifa-World-Cup-Album/blob/master/assets/screenshots/Login.png?raw=true">
       <img align="center" alt="FWC" height="480" width="240" src="https://github.com/byThiagoMem/Fifa-World-Cup-Album/blob/master/assets/screenshots/Home.png?raw=true">
       <img align="center" alt="FWC" height="480" width="240" src="https://github.com/byThiagoMem/Fifa-World-Cup-Album/blob/master/assets/screenshots/Add_Sticker.png?raw=true">
-      
    </div>
+      <p align="center">
+      The Layout was developed by <a href="https://www.linkedin.com/in/rodrigo-rahman/">Rodrigo Rahman</a>, and you can access it on Figma:
+   
+   - <a href="https://www.figma.com/file/6VWEhq8V8tQBF9zgYQq42P/App_album_copa?node-id=0%3A1">Mobile</a> 📱
+   </p>
    
    ---
 
-   >This project was developed with by **[@Thiago Mem](https://www.linkedin.com/in/thiago-a-mem-311720130/)**, with the instructor **[@GabulDev](https://www.linkedin.com/in/gabuldev/)**, in #NextLevelWeek from **[Rocketseat](https://rocketseat.com.br/)**.<br>
+   >This project was developed with by **[@Thiago Mem](https://www.linkedin.com/in/thiago-a-mem-311720130/)**, with the instructor **[@RodrigoRahman](https://www.linkedin.com/in/rodrigo-rahman/)**, in #DartWeek from **[Academia do flutter](https://academiadoflutter.com.br)**.<br>
 
 ---
