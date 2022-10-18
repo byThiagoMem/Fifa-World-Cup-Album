@@ -1,16 +1,29 @@
-# fwc_album
+<p align="center">
+      <img src="https://i.pinimg.com/originals/c4/63/98/c4639855e84f992b7dbed318972b86fd.png" width="100" alt="Logo World Cup Qatar"/>
+</p>
 
-A new Flutter project.
+<h2 align="center">Sobre 📖</h2>
 
-## Getting Started
+<p align="center">
+   Projeto foi desenvolvido na 7º edição do Dart Week, uma semana intensa de estudos, networking, amizade, trabalho em grupo, acompanhado de um projeto sensacional desenvolvido pela Academia do Flutter de 10 a 14 de outubro de 2022.<br>
+</p>
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+<h2 align="center">Layout 🎨</h2>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+   <p align="center">
+      <img alt="PayFlow" title="PayFlow" src="https://user-images.githubusercontent.com/59374587/122856653-86779c80-d2ed-11eb-8927-8c5433dc37d3.png" />
+   </p>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   <p align="center">
+      The Layout was developed by <a href="https://instagram.com/tiagoluchtenberg">Tiago Luchtenberg</a>, and you can access it on Figma:
+   
+   - <a href="https://www.figma.com/file/kLK7FYnWKMoN68sQXcSniu/PayFlow">Mobile</a> 📱
+   </p>
+
+   ---
+
+   >This project was developed with by **[@Thiago Mem](https://www.linkedin.com/in/thiago-a-mem-311720130/)**, with the instructor **[@GabulDev](https://www.linkedin.com/in/gabuldev/)**, in #NextLevelWeek from **[Rocketseat](https://rocketseat.com.br/)**.<br>
+
+---
