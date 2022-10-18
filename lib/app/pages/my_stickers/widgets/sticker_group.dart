@@ -1,12 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_getit/flutter_getit.dart';
 import 'package:fwc_album/app/core/ui/styles/colors_app.dart';
 import 'package:fwc_album/app/core/ui/styles/test_styles.dart';
 import 'package:fwc_album/app/models/group_stickers_model.dart';
 import 'package:fwc_album/app/models/user_sticker_model.dart';
+import 'package:fwc_album/app/pages/my_stickers/presenter/my_stickers_presenter.dart';
 
 class StickerGroup extends StatelessWidget {
-  const StickerGroup(
-      {super.key, required this.group, required this.statusFilter});
+  const StickerGroup({
+    super.key,
+    required this.group,
+    required this.statusFilter,
+  });
 
   final GroupStickers group;
   final String statusFilter;
@@ -66,6 +71,7 @@ class StickerGroup extends StatelessWidget {
               final stickerWidget = _Sticker(
                 stickerNumber: stickerNumber,
                 sticker: sticker,
+                countryName: group.countryName,
                 countryCode: group.countryCode,
               );
 
@@ -94,18 +100,32 @@ class _Sticker extends StatelessWidget {
   const _Sticker({
     required this.stickerNumber,
     required this.sticker,
+    required this.countryName,
     required this.countryCode,
   });
 
   final String stickerNumber;
   final UserStickerModel? sticker;
-
+  final String countryName;
   final String countryCode;
 
   @override
   Widget build(BuildContext context) {
+    final presenter = context.get<MyStickersPresenter>();
+
     return InkWell(
-      onTap: () {},
+      onTap: () async {
+        await Navigator.of(context).pushNamed(
+          '/stiker_detail',
+          arguments: {
+            'countryCode': countryCode,
+            'stickerNumber': stickerNumber,
+            'countryName': countryName,
+            'stickerUser': sticker,
+          },
+        );
+        presenter.refresh();
+      },
       child: Container(
         color: sticker != null ? context.color.primary : context.color.grey,
         child: Column(

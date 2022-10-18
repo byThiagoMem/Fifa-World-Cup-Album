@@ -8,4 +8,6 @@ abstract class MyStickersView {
   void updateStatusFilter(String status);
 
   void updateAlbum(List<GroupStickers> album);
+
+  void showLoader();
 }
